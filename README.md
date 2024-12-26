@@ -1,4 +1,4 @@
-Hello! 👋 My name is Sebastián Arroyo, and I'm passionate about software development and technology. 
+Hi! 👋 My name is Sebastian, and I'm passionate about software development and technology. 
 I have experience in programming with Java, SQL, and Python, and 
 I'm constantly expanding my knowledge in web development with HTML, CSS, and JavaScript.
 
