@@ -1,4 +1,18 @@
-<h3 align="left">Hi! 👋 My name is Sebastian, and I'm passionate about software development and technology. I have experience in programming with Java, SQL, and Python, and I'm constantly expanding my knowledge in web development with HTML, CSS, and JavaScript.<br><br>In addition to my technical skills, I have worked in the banking and administrative sectors, where I developed strong problem-solving and organizational skills, as well as experience working with large data sets and optimizing processes.<br><br>I'm currently building projects that demonstrate my passion for technology and my ability to apply programming and software development skills in real-world scenarios. Feel free to explore my repositories and connect with me!</h3>
+<h3 align="left">Backend Developer focused on Java and Spring Boot.
+
+I have experience building and maintaining enterprise-level solutions, particularly in financial environments. My work involves designing REST APIs, implementing business logic, optimizing SQL queries, and ensuring data integrity in transactional systems.
+
+Tech Stack:
+- Java (8+)
+- Spring Boot
+- JPA / Hibernate
+- SQL Server / PostgreSQL
+- REST APIs
+- JWT & Spring Security
+
+I’m currently deepening my knowledge in backend architecture, clean code practices, and scalable system design.
+
+Feel free to explore my repositories — most of my projects focus on real-world backend scenarios.</h3>
 
 ###
 
