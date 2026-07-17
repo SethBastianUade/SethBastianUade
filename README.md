@@ -15,17 +15,158 @@
   <a href="mailto:sebastianarroyo9014@gmail.com">Email</a>
 </div>
 
-<br/>
+---
 
-> Software Engineer focused on Backend Engineering, AI Safety, and AI-powered systems.
+## Mission
 
-I work primarily with **Java and Spring Boot**, building reliable APIs and transactional services. Alongside production work, I study **AI safety, alignment, and LLM reliability**, documenting what I learn in the open.
+This repository is a public log of my transition from backend engineering into AI safety and AI engineering.
 
-This profile is a research notebook — a place to track progress as I move from backend engineering toward AI engineering.
+I spend my days building reliable software — Java, Spring Boot, well-shaped APIs — and my evenings studying what it would take to build **reliable AI**. I document the work in the open: notes, reading, small experiments, and the things I get wrong along the way.
+
+The intended output is not a portfolio. It is a long-running notebook, kept for years, that records how an engineer actually moves into this field — one paper, one eval, one failed reproduction at a time.
 
 ---
 
-## Current Focus
+## Research Timeline
+
+A working history. Intentionally incomplete — milestones get added as they happen.
+
+<pre>
+2024 ──┐
+       │  Started Software Engineering
+       │
+2025 ──┤
+       │  Professional Java Backend Engineer
+       │
+2026 ──┤
+       │  Selected for BlueDot Technical AI Safety
+       │
+Now  ──┤
+       │  Building Kreta
+       │
+Now  ──┤
+       │  Learning AI Safety · Alignment · LLM Reliability
+       │
+Next ──┤
+       │  AI Alignment Engineering
+       │
+...   └─ future entries
+</pre>
+
+---
+
+## Research Log
+
+A live laboratory notebook. Each topic is a working file under [`/research`](./research). Most entries are preliminary — they grow as understanding does.
+
+&nbsp;&nbsp;<sub>Status legend: &nbsp;`Reading` active study · `Drafting` summary stable · `Working` running experiments · `Revisited` returned to after a gap</sub>
+
+| Status | Topic | Summary | Notes |
+| :---: | --- | --- | :--- |
+| Reading | [Prompt Injection](./research/prompt-injection.md) | Instruction/data boundary inside LLM systems | placeholders |
+| Reading | [Mechanistic Interpretability](./research/mechanistic-interpretability.md) | Reverse-engineering internal model computation | placeholders |
+| Reading | [AI Evaluations](./research/ai-evaluations.md) | Capability and safety evals as infrastructure | placeholders |
+| Reading | [Transformer Circuits](./research/transformer-circuits.md) | Attention and MLP circuits, induction heads | placeholders |
+| Reading | [Agent Safety](./research/agent-safety.md) | Failure modes of autonomous LLM loops | placeholders |
+| Reading | [Scalable Oversight](./research/scalable-oversight.md) | Supervising stronger actors from weaker ones | placeholders |
+| Reading | [Constitutional AI](./research/constitutional-ai.md) | Self-critique against written principles | placeholders |
+
+> Topics are added as I start them. Files I have not yet opened are not listed here.
+
+---
+
+## Current Reading
+
+A queue, tracked honestly. Bars show where I am; links go to notes when they exist.
+
+<table>
+  <tr><td>
+
+**AI Safety Fundamentals** &nbsp;— *BlueDot curriculum*
+`██████████░░░░░░░░░░` &nbsp; 50% &nbsp;·&nbsp; <sub>Reading</sub> &nbsp;·&nbsp; <sub><i>notes pending</i></sub>
+
+**Mathematical Framework for Transformer Circuits** &nbsp;— *Elhage et al.*
+`████░░░░░░░░░░░░░░░░` &nbsp; 20% &nbsp;·&nbsp; <sub>Reading</sub> &nbsp;·&nbsp; <sub><i>notes pending</i></sub>
+
+**In-context Learning and Induction Heads** &nbsp;— *Olsson et al.*
+`██░░░░░░░░░░░░░░░░░░` &nbsp; 10% &nbsp;·&nbsp; <sub>Queued</sub>
+
+**Language Models Can Explain Neurons in Language Models** &nbsp;— *OpenAI*
+`░░░░░░░░░░░░░░░░░░░░` &nbsp;&nbsp;0% &nbsp;·&nbsp; <sub>Queued</sub>
+
+**Constitutional AI** &nbsp;— *Bai et al., Anthropic*
+`██░░░░░░░░░░░░░░░░░░` &nbsp; 10% &nbsp;·&nbsp; <sub>Queued</sub>
+
+</td></tr>
+</table>
+
+<details>
+<summary><sub> backlog — papers queued for later (click to expand) </sub></summary>
+
+- [ ] &nbsp;*Toy Models of Superposition* — Elhage et al.
+- [ ] &nbsp;*Sleeper Agents* — Hubinger et al.
+- [ ] &nbsp;*Scaling Monosemanticity* — Templeton et al.
+- [ ] &nbsp;*AI Safety via Debate* — Irving et al.
+- [ ] &nbsp;*Are Emergent Abilities a Mirage?* — Schaeffer et al.
+- [ ] &nbsp;*Not what you've signed up for* — Greshake et al.
+- [ ] &nbsp;<sub>placeholder — add next paper</sub>
+
+</details>
+
+---
+
+## Experiments
+
+Small implementations to test understanding. Most fail or produce noise. That is the point.
+
+| Status | Name | What it tests | Repo |
+| :---: | --- | --- | --- |
+| Planning | `llm-eval-001` | A minimal capability + safety eval harness from scratch | _coming_ |
+| Planning | `induction-heads` | Reproduce induction-head detection on GPT-2 small | _coming_ |
+| Planning | `inject-lab` | A controlled indirect-prompt-injection testbed against a tool-using agent | _coming_ |
+| Planning | `weak-to-strong` | Minimal weak-to-strong generalisation experiment | _coming_ |
+| Planning | `agent-harness` | An LLM agent with an explicit, auditable permission surface | _coming_ |
+
+> Empty repos are not created until I have time to start them. Names are reserved.
+
+---
+
+## Lab Notes
+
+Short, dated entries. Easy to maintain by hand. Newest on top.
+
+&nbsp;&nbsp;**2026-07-17** &nbsp;— Started this notebook publicly.
+&nbsp;&nbsp;Kreta continues in parallel; research log begins here.
+
+&nbsp;&nbsp;**2026-07-15** &nbsp;— Accepted into BlueDot Technical AI Safety.
+
+&nbsp;&nbsp;**2026-07-** &nbsp;— _placeholder_
+
+<!--
+Append new entries as:
+&nbsp;&nbsp;YYYY-MM-DD — one-line note.
+Keep the most recent at the top of the dated list.
+-->
+
+---
+
+## Open Questions
+
+Things I cannot answer yet and am actively thinking about. Listed to show what I am working toward, not what I claim.
+
+- How should we evaluate reasoning rather than retrieval?
+- What practical interpretability techniques transfer from small to frontier models?
+- How can agent failures — long-horizon, sparse, compounding — be measured before deployment?
+- Is instruction/data separation a property we can train, or only scaffold?
+- What is the smallest meaningful eval set that predicts deployment risk?
+- Can oversight keep up when the actor outpaces the overseer?
+- How do we detect when a model has internalised a principle versus learning to recite it?
+
+> Added as I notice them. Never removed; downgraded to a Research Log entry when answered.
+
+---
+
+## Focus Areas
 
 <table>
   <tr>
@@ -49,82 +190,18 @@ This profile is a research notebook — a place to track progress as I move from
   <tr>
     <td width="50%" valign="top">
       <strong>Building</strong><br/>
-      <sub>Kreta — home for modern software and AI products</sub>
+      <sub><a href="https://github.com/SethBastianUade">Kreta</a> — home for modern software and AI products</sub>
       <br/><br/>
-      Active development. Early-stage products exploring where backend reliability meets applied AI.
+      Early-stage work where backend reliability meets applied AI.
     </td>
     <td width="50%" valign="top">
       <strong>Learning</strong><br/>
       <sub>BlueDot — Technical AI Safety</sub>
       <br/><br/>
-      Structured study of safety fundamentals, alignment techniques, and frontier model risks.
+      Structured study of fundamentals, alignment, and frontier risks.
     </td>
   </tr>
 </table>
-
----
-
-## Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/SethBastianUade">Kreta</a></strong>&nbsp;&nbsp;<sub>Active Development</sub><br/><br/>
-      Building AI-powered software products. Exploration ground for reliable, well-crafted tools.<br/><br/>
-      <code>Java</code> · <code>Spring Boot</code> · <code>Python</code> · <code>React</code> · <code>TypeScript</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://sebastianarroyo.tech"><strong>This Notebook</strong></a>&nbsp;&nbsp;<sub>Ongoing</sub><br/><br/>
-      Notes, reading, and experiments as I transition into AI engineering. Public by default.<br/><br/>
-      <code>Markdown</code> · <code>OpenAI API</code> · <code>Claude Code</code>
-    </td>
-  </tr>
-</table>
-
----
-
-## Research Log
-
-A running index of topics I'm studying. Most entries are placeholders — filled in as notes mature.
-
-- [x] &nbsp;**AI Safety** — fundamentals, harms, frontier risks &mdash; <sub><i>notes pending</i></sub>
-- [x] &nbsp;**Alignment** — RLHF, constitutional AI, scalable oversight &mdash; <sub><i>notes pending</i></sub>
-- [x] &nbsp;**LLM Evaluation** — benchmarks, human eval, auto evals &mdash; <sub><i>notes pending</i></sub>
-- [x] &nbsp;**Mechanistic Interpretability** — circuits, probes, features &mdash; <sub><i>notes pending</i></sub>
-- [x] &nbsp;**Prompt Injection** — input-level attacks, indirect injection, mitigations &mdash; <sub><i>notes pending</i></sub>
-- [x] &nbsp;**Agent Safety** — tool use, autonomous loops, control &mdash; <sub><i>notes pending</i></sub>
-- [ ] &nbsp;Red-teaming & jailbreak taxonomy
-- [ ] &nbsp;Evals engineering for frontier models
-- [ ] &nbsp;Interpretability tooling (TransformerLens, neuronal tracing)
-
----
-
-## Reading List
-
-**Currently reading**
-
-- *AI Safety Fundamentals* — BlueDot curriculum
-- *Transformer Circuits* — Anthropic, "Mathematical Framework" series
-- *Language Models Can Explain Neurons in Language Models* — OpenAI
-- *Constitutional AI* — Bai et al., Anthropic
-
-**Queued**
-
-- [ ] &nbsp;*In-context Learning and Induction Heads* — Olsson et al.
-- [ ] &nbsp;*Sleeper Agents* — Hubinger et al.
-- [ ] &nbsp;*Scaling Monosemanticity* — Templeton et al.
-- [ ] &nbsp;*Are Emergent Abilities a Mirage?* — Schaeffer et al.
-- [ ] &nbsp;<sub>placeholder — add upcoming paper</sub>
-
----
-
-## Writing
-
-**Latest notes**
-
-&nbsp;&nbsp;<i>Coming soon.</i>
-
-Future topics: reliable systems for LLM workloads · evals as infrastructure · interpretability for engineers · backend patterns for agentic applications.
 
 ---
 
@@ -142,29 +219,14 @@ Future topics: reliable systems for LLM workloads · evals as infrastructure · 
 &nbsp;<img src="https://img.shields.io/badge/TypeScript-0B0F17?style=flat&labelColor=111827&color=94A3B8" alt="TypeScript"/>
 &nbsp;<img src="https://img.shields.io/badge/OpenAI%20API-0B0F17?style=flat&labelColor=111827&color=94A3B8" alt="OpenAI API"/>
 &nbsp;<img src="https://img.shields.io/badge/Claude%20Code-0B0F17?style=flat&labelColor=111827&color=94A3B8" alt="Claude Code"/>
-
-</div>
-
----
-
-## Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SethBastianUade&theme=github-compact&area=true&hide_border=true&bg_color=0B0F17&color=94A3B8&line=3B82F6&point=14B8A6" alt="Contribution activity" width="92%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.perfect-developer.com/api?username=SethBastianUade&show_icons=true&count_private=true&hide_title=true&hide_border=true&bg_color=0B0F17&title_color=F8FAFC&text_color=94A3B8&icon_color=3B82F6&ring_color=14B8A6&include_all_commits=true&line_height=28" alt="GitHub statistics" width="44%"/>
-&nbsp;
-<img src="https://github-readme-stats.perfect-developer.com/api/top-langs/?username=SethBastianUade&layout=compact&hide_title=true&hide_border=true&bg_color=0B0F17&text_color=94A3B8&title_color=F8FAFC&langs_count=8" alt="Top languages" width="44%"/>
+&nbsp;<img src="https://img.shields.io/badge/Inspect%20AI-0B0F17?style=flat&labelColor=111827&color=94A3B8" alt="Inspect AI"/>
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>Quietly documenting the move from backend engineering to AI safety.</sub>
+  <sub>A notebook kept openly. Continuous learning, not finished work.</sub>
 </div>
 
 <br/>
