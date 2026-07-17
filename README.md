@@ -1,65 +1,51 @@
-<h3 align="left">Backend Developer focused on Java and Spring Boot.
-
-I have experience building and maintaining enterprise-level solutions, particularly in financial environments. My work involves designing REST APIs, implementing business logic, optimizing SQL queries, and ensuring data integrity in transactional systems.
-
-Tech Stack:
-- Java (8+)
-- Spring Boot
-- JPA / Hibernate
-- SQL Server / PostgreSQL
-- REST APIs
-- JWT & Spring Security
-
-I’m currently deepening my knowledge in backend architecture, clean code practices, and scalable system design.
-
-Feel free to explore my repositories — most of my projects focus on real-world backend scenarios.</h3>
-
-###
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+    <img alt="Sebastián Arroyo — Java Backend Developer, AI Engineer and startup builder" src="./assets/light.svg" width="100%">
+  </picture>
+</div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SethBastianUade&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=SethBastianUade&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <a href="https://sebastianarroyo.tech">Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/SethBastianUade">GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sebasti%C3%A1n-arroyo-84a46a20a/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:sebastianarroyo9014@gmail.com">Email</a>
 </div>
 
-###
+## Building systems that hold up
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="apache logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="30" alt="jetbrains logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-</div>
+I'm a backend-focused software engineer from Argentina, working primarily with **Java and Spring Boot**. I build reliable APIs, transactional services, and data-intensive systems with an emphasis on clear architecture, maintainability, and developer experience.
 
-###
+My current work sits at the intersection of backend engineering and applied AI. I'm exploring **AI safety and alignment** while building **Kreta** — modern software and AI products designed to turn strong ideas into useful, well-crafted tools.
 
-<div align="left">
-  <a href="sebastianarroyo9014@gmai.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/sebastián-arroyo-84a46a20a/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Backend engineering</strong><br><br>
+      Java · Spring Boot · Hibernate<br>
+      PostgreSQL · REST · Security
+    </td>
+    <td width="33%" valign="top">
+      <strong>AI &amp; product</strong><br><br>
+      Python · OpenAI · AI Safety<br>
+      Product thinking · Rapid iteration
+    </td>
+    <td width="33%" valign="top">
+      <strong>Platform &amp; frontend</strong><br><br>
+      Docker · AWS · Git<br>
+      TypeScript · React · Next.js
+    </td>
+  </tr>
+</table>
 
-###
+## Current focus
 
-<br clear="both">
+- Building dependable backend foundations for real-world products.
+- Learning deeply about system design, cloud architecture, AI safety, and alignment.
+- Creating **Kreta**, a home for modern software and AI products.
+- Contributing to open source and sharing practical engineering knowledge.
 
-<img src="https://raw.githubusercontent.com/SethBastianUade/SethBastianUade/output/snake.svg" alt="Snake animation" />
+## Let's build something useful
 
-###
+I'm interested in thoughtful collaborations around backend platforms, developer tools, applied AI, and early-stage products. If you're working on a problem where engineering quality matters, [let's talk](mailto:sebastianarroyo9014@gmail.com).
