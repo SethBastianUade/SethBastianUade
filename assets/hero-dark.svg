@@ -60,14 +60,14 @@
   </g>
 
   <!-- Eyebrow -->
-  <text x="80" y="120" class="meta" font-size="12" fill="#94A3B8">Sebastián Arroyo · Research Notebook</text>
+  <text x="80" y="120" class="meta" font-size="12" fill="#94A3B8">Sebastián Arroyo · Backend Developer</text>
 
   <!-- Headlines -->
   <text x="80" y="200" class="t1" font-size="52" fill="#F8FAFC">Building Reliable Software.</text>
   <text x="80" y="258" class="t2" font-size="52" fill="#94A3B8">Studying Reliable AI.</text>
 
   <!-- Subline -->
-  <text x="80" y="300" class="sub" font-size="15" fill="#94A3B8">Backend engineering · AI Safety · AI-powered systems</text>
+  <text x="80" y="300" class="sub" font-size="15" fill="#94A3B8">Java · Spring Boot · Moving toward AI Engineering</text>
 
   <!-- Accent line -->
   <rect x="80" y="150" width="36" height="2" rx="1" fill="#3B82F6"/>

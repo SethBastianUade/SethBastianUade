@@ -1,4 +1,15 @@
-# Sebastián Arroyo
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img alt="Sebastián Arroyo — Backend Developer moving toward AI Engineering" src="./assets/hero-light.svg" width="100%">
+</picture>
+
+<p align="center">
+  <img alt="Backend Developer · Java & Spring Boot — Moving toward AI Engineering" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=600&lines=Backend+Developer+%C2%B7+Java+%26+Spring+Boot;Moving+toward+AI+Engineering;Interested+in+AI+evaluation+%26+reliability">
+</p>
+
+# Sebastián Arroyo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" alt="">
+
+<img align="right" width="300" alt="" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 Backend developer (Java, Spring Boot) moving toward AI Engineering.
 I build and support business systems in production, and I'm now learning to integrate and evaluate AI systems with the same focus on reliability.
@@ -41,3 +52,10 @@ Software Development student at UADE (Buenos Aires).
 
 - **AI Engineering:** integrating models into systems that have to work in production.
 - **AI Safety:** evaluation and reliability of AI systems. I completed the Technical AI Safety course by BlueDot Impact and keep [study notes](./research) on the topics I'm reading.
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SethBastianUade/SethBastianUade/output/github-snake-dark.svg">
+  <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/SethBastianUade/SethBastianUade/output/github-snake.svg">
+</picture>
